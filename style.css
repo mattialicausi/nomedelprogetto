@@ -1,0 +1,93 @@
+body{
+  background-image: url(sfondo.jpg);
+  background-size: cover;
+  box-sizing: content-box;
+  width: 900px;
+  margin: auto;
+  color: white;
+}
+
+.contenitore{
+  padding:20px;
+  background-color: black;
+  border-radius: 5%;
+  margin-top: 30px;
+  padding:20px;
+  opacity:0.4;
+}
+
+
+h1{
+  text-align: center;
+  color: lightgreen;
+}
+
+
+h2{
+  display: inline-block;
+}
+
+.logo{
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+nav{
+  background-color: lightgreen;
+  color: white
+}
+
+
+nav ul{
+  margin:0;
+  padding:5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+nav li{
+  color:black;
+  display: inline-block;
+  border: black solid 1px;
+  background-color: white;
+  padding: 2px;
+}
+
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+.carica1{
+  background-color: green;
+  width: 60%;
+  padding: 10px;
+  margin: 10px;
+  color: green;
+  opacity: 1;
+}
+
+
+.carica2{
+  background-color: orange;
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  color: orange;
+}
+
+
+.carica3{
+  background-color: red;
+  width: 20%;
+  padding: 10px;
+  margin: 10px;
+  color: red;
+}
